@@ -1,23 +1,26 @@
 body {
     background-color: beige;
 }
+
 .container {
-        background-color: rgb(182, 158, 20);
-        padding: 40px ;
-        border-radius: 28px;
-        box-shadow: 8px 5px 14px -1px rgb(94, 94, 94);
-        -webkit-box-shadow: 8px 5px 14px -1px rgba(94, 94, 94);
-        -moz-box-shadow: 8px 5px 14px -1px rgba(94, 94, 94);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    background-color: rgb(182, 158, 20);
+    padding: 40px;
+    border-radius: 28px;
+    box-shadow: 8px 5px 14px -1px rgb(94, 94, 94);
+    -webkit-box-shadow: 8px 5px 14px -1px rgba(94, 94, 94);
+    -moz-box-shadow: 8px 5px 14px -1px rgba(94, 94, 94);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 input {
     background-color: rgb(223, 212, 164);
     font-weight: 600;
     font-size: 1rem;
+    width: 50%; /* To make the inputs take up half of the width on smaller screens */
+    margin: 0 auto; /* To center the input fields */
 }
 
 .container h2 {
@@ -26,36 +29,28 @@ input {
     color: black;
     font-family: sans-serif;
 }
-.feet {
-    padding: 7px;
-    margin-left: 15px;
-    width: 200px;
-    margin-bottom: 10px;
-}
 
+.feet,
 .inches {
     padding: 7px;
-    width: 200px;
-
+    margin-bottom: 10px;
 }
 
 span {
     font-family: sans-serif;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
 }
 
 .result {
     font-size: 35px;
-    /* margin-left: 60px; */
     margin-top: 16px;
     color: black;
     text-align: center;
 }
 
 .submit {
-    width: 250px;
+    width: 50%; /* To make the button take up half of the width on smaller screens */
     height: 35px;
-    margin-left: 20px;
     margin-top: 25px;
     border-radius: 5px;
     border-style: none;
@@ -63,5 +58,6 @@ span {
     color: #fff;
     font-size: 25px;
     cursor: pointer;
-    
+    display: block; /* To ensure the button is a block-level element */
+    margin: 0 auto; /* To center the button */
 }
