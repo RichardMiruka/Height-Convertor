@@ -19,8 +19,7 @@ input {
     background-color: rgb(223, 212, 164);
     font-weight: 600;
     font-size: 1rem;
-    width: 50%; /* To make the inputs take up half of the width on smaller screens */
-    margin: 0 auto; /* To center the input fields */
+    width: 100%; /* Make inputs take up full width on smaller screens */
 }
 
 .container h2 {
@@ -33,6 +32,7 @@ input {
 .feet,
 .inches {
     padding: 7px;
+    width: 100%; /* Make input fields take up full width on smaller screens */
     margin-bottom: 10px;
 }
 
@@ -49,7 +49,7 @@ span {
 }
 
 .submit {
-    width: 50%; /* To make the button take up half of the width on smaller screens */
+    width: 100%; /* Make button take up full width on smaller screens */
     height: 35px;
     margin-top: 25px;
     border-radius: 5px;
@@ -58,6 +58,4 @@ span {
     color: #fff;
     font-size: 25px;
     cursor: pointer;
-    display: block; /* To ensure the button is a block-level element */
-    margin: 0 auto; /* To center the button */
 }
