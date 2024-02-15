@@ -19,7 +19,7 @@ input {
     background-color: rgb(223, 212, 164);
     font-weight: 600;
     font-size: 1rem;
-    width: 100%; /* Make inputs take up full width on smaller screens */
+    width: 100%; /* To make inputs take up full width on smaller screens */
 }
 
 .container h2 {
@@ -32,7 +32,7 @@ input {
 .feet,
 .inches {
     padding: 7px;
-    width: 100%; /* Make input fields take up full width on smaller screens */
+    width: 100%; /* To make input fields take up full width on smaller screens */
     margin-bottom: 10px;
 }
 
@@ -49,7 +49,7 @@ span {
 }
 
 .submit {
-    width: 100%; /* Make button take up full width on smaller screens */
+    width: 100%; /* To make button take up full width on smaller screens */
     height: 35px;
     margin-top: 25px;
     border-radius: 5px;
